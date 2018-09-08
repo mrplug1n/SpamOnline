@@ -49,7 +49,7 @@ if ($init->type == 1) {
 }elseif ($init->type == 2) {
 	 $init->Verif($init->no,$init->type);
 }
-fi
+
 
 if
 [ $KCG = 2 ] || [ $KCG = 2 ]
@@ -85,7 +85,7 @@ $jeda = trim(fgets(STDIN));
 $execute = telkbomb($nomor, $jumlah, $jeda);
 print $execute;
 ?>
-fi
+
 
 if [ $KCG = 3 ] || [ $KCG = 3 ]
 then
@@ -114,7 +114,7 @@ $loop = "$b";
 for ($i=0; $i < $loop; $i++) { 
     $init->Verif($init->no);
 }
-fi
+
 
 
 if [ $KCG = 4 ] || [ $KCG = 4 ]
@@ -140,7 +140,7 @@ $loop = "$b";
 for ($i=0; $i < $loop; $i++) {
     $init->Verif($init->no);
 }
-fi
+
 
 if
 [ $KCG = 5 ] || [ $KCG = 5 ]
@@ -179,7 +179,7 @@ $jeda = trim(fgets(STDIN));
 $execute = jdidbom($nomor, $jumlah, $jeda);
 print $execute;
 ?>
-fi
+
 
 if
 [ $KCG = 6 ] || [ $KCG = 6 ]
@@ -241,7 +241,7 @@ except KeyboardInterrupt:
 except smtplib.SMTPAuthenticationError:
     print '\n[!] Mungkin Nama Pengguna Dan Sandi Email Anda Salah'
     sys.exit()
-fi
+
 
 if
 [ $KCG = 81 ] || [ $KCG = 81 ]
